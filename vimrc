@@ -1,3 +1,6 @@
+" Pathogen
+call pathogen#infect()
+
 " Editing options
 " No tabs, shiftwidth 4, tabstop 4
 set shiftwidth=4
@@ -51,3 +54,28 @@ let perl_fold = 1
 let perl_fold_blocks = 1
 let perl_nofold_packages = 1
 let perl_nofold_subs = 1
+
+" Syntax shortcuts
+nmap <C-S>a :set syntax=asm<CR>
+nmap <C-S>c :set syntax=c<CR>
+nmap <C-S>v :set syntax=vim<CR>
+nmap <C-S>m :set syntax=mkd<CR>
+
+" Menus
+source $VIMRUNTIME/menu.vim
+set wildmenu
+set cpo-=<
+set wcm=<C-Z>
+map <F4> :emenu <C-Z>
+
+" Colorscheme
+let &t_Co=16
+set background=dark
+colorscheme solarized
+
+" Mouse support
+if has("mouse")
+    set mouse=a
+    set mousehide
+endif
+
