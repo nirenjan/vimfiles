@@ -1,5 +1,9 @@
+" Don't enable vi compatibility
+set nocompatible
+
 " Pathogen
 call pathogen#infect()
+call pathogen#helptags()
 
 " Editing options
 " No tabs, shiftwidth 4, tabstop 4
@@ -69,7 +73,6 @@ set wcm=<C-Z>
 map <F4> :emenu <C-Z>
 
 " Colorscheme
-let &t_Co=16
 set background=dark
 colorscheme solarized
 
