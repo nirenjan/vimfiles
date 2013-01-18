@@ -23,11 +23,9 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Braces {}
-" Typing { in insert mode will automatically render as
-" <whatever text came before>{
-"     <cursor placed here>
-" }
-imap { {<CR>}<ESC>O<TAB>
+" Typing { in insert mode will automatically insert a closing
+" curly brace as well and place the curser on the closing brace
+imap { {}<ESC>i
 
 " Parantheses ()
 " Typing ( in insert mode will automatically insert a closing
