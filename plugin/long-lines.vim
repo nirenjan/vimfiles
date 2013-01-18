@@ -16,9 +16,11 @@
 " NOTE: 
 " This file will highlight all characters from column 81 onwards
 "
-" Nirenjan Krishnan     nirenjan@gmail.com              2008/12/16
+" Nirenjan Krishnan     nirenjan@gmail.com              2013/01/19
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-match LineTooLong '\%>80v.\+'
-highlight LineTooLong cterm=bold ctermbg=red guibg=LightYellow
+if exists('+colorcolumn')
+    set colorcolumn=81
+endif
 
+autocmd BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
