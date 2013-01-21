@@ -29,6 +29,9 @@ set hlsearch
 " Show status line
 set laststatus=2
 
+" Show tab line
+set showtabline=2
+
 " Set status to show all details (File name, type, character under cursor,
 " Column, row, total lines, row/lines%)
 set statusline=%F%m%r%h%w\ %y\ [\%03.3b/0x\%02.2B]\ [%v,%l/%L]\ [%p%%]
