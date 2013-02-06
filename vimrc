@@ -76,8 +76,12 @@ set wcm=<C-Z>
 map <F4> :emenu <C-Z>
 
 " Colorscheme
-set background=dark
 colorscheme solarized
+if has("gui_running")
+    set background=light
+else
+    set background=dark
+end
 
 " Mouse support
 if has("mouse")
