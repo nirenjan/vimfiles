@@ -25,17 +25,17 @@
 " Braces {}
 " Typing { in insert mode will automatically insert a closing
 " curly brace as well and place the curser on the closing brace
-imap { {}<ESC>i
+imap { {}<Left>
 
 " Parantheses ()
 " Typing ( in insert mode will automatically insert a closing
 " paranthesis as well and place the cursor on the closing paranthesis
 " in insert mode.
-imap ( ()<ESC>i
+imap ( ()<Left>
 
 " Brackets []
 " Typing [ in insert mode will automatically insert a closing
 " bracket as well and place the cursor on the closing bracket
 " in insert mode.
-imap [ []<ESC>i
+imap [ []<Left>
 
