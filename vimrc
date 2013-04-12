@@ -6,10 +6,7 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " Editing options
-" No tabs, shiftwidth 4, tabstop 4
-set shiftwidth=4
-set tabstop=4
-set expandtab
+" These are now handled by the tab-expand plugin
 
 " Automatic indentation of code blocks
 set autoindent
