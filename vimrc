@@ -18,6 +18,9 @@ set backspace=indent,eol,start
 syntax enable
 syntax on
 
+" Filetype plugins
+filetype plugin on
+
 " Search options
 " Enable search highlighting
 set hlsearch
