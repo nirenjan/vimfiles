@@ -8,6 +8,9 @@ call pathogen#helptags()
 " Editing options
 " These are now handled by the tab-expand plugin
 
+" Disable Ex mode
+nnoremap Q <nop>
+
 " Automatic indentation of code blocks
 set autoindent
 
