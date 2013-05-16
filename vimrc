@@ -6,7 +6,11 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " Editing options
-" These are now handled by the tab-expand plugin
+" May be overridden by ftplugin
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 
 " Disable Ex mode
 nnoremap Q <nop>
