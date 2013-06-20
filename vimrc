@@ -24,7 +24,6 @@ set backspace=indent,eol,start
 
 " Enable syntax highlighting
 syntax enable
-syntax on
 
 " Filetype plugins
 filetype plugin on
