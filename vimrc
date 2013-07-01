@@ -16,6 +16,10 @@ set expandtab
 " Disable Ex mode
 nnoremap Q <nop>
 
+" Make record macro command use leader - saves annoyances
+nnoremap q <nop>
+nnoremap <Leader>q q
+
 " Automatic indentation of code blocks
 set autoindent
 
