@@ -1,0 +1,24 @@
+# List of Vim bundles
+# Pathogen v2.2
+tpope/vim-pathogen      v2.2
+
+# A Git wrapper so awesome, it should be illegal
+tpope/vim-fugitive
+
+# tmux config file syntax
+zaiste/tmux.vim
+
+# Solarized
+altercation/vim-colors-solarized
+
+# Vimwiki
+vimwiki     2.1
+
+# snipMate
+msanders/snipmate.vim
+
+# tComment
+tomtom/tcomment_vim     2.08
+
+# Airline
+bling/vim-airline       v0.3
