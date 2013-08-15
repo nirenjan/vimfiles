@@ -43,19 +43,6 @@ set laststatus=2
 " Show tab line
 set showtabline=2
 
-" Set status to show all details
-set statusline=%F           " Full path to filename
-set statusline+=%m          " Modified flag
-set statusline+=%h          " Help buffer flag
-set statusline+=%w          " Preview window flag
-set statusline+=\ %y        " File type
-set statusline+=%=          " Switch to right align
-set statusline+=[%03.3b     " ASCII value for character under cursor
-set statusline+=/0x%02.2B]  " Same, but in hex
-set statusline+=\ [%v       " Virtual column number
-set statusline+=,%l/%L]     " Current line number, total lines
-set statusline+=\ [%p%%]    " Percentage through file
-
 " Set the cursorline option
 " This (by default shows up as underlining)
 set cursorline
