@@ -60,6 +60,7 @@ set foldlevel=99
 
 " Menus
 set wildmenu
+set wildmode=longest,full
 
 " Colorscheme
 colorscheme solarized
