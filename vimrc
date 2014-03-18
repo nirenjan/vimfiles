@@ -40,6 +40,9 @@ set hlsearch
 " Show status line
 set laststatus=2
 
+" Enable hidden buffers
+set hidden
+
 " Show tab line
 set showtabline=2
 
