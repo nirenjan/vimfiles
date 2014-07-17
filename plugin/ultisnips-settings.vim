@@ -12,3 +12,5 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 " Edit splits in a vertical split
 let g:UltiSnipsEditSplit='vertical'
 
+" Ignore the no python warning if Vim doesn't have python support enabled
+let g:UltiSnipsNoPythonWarning=1
