@@ -50,7 +50,16 @@ set showtabline=2
 " This (by default shows up as underlining)
 set cursorline
 
-" Show line number
+" Show line number + relativenumber
+" Some older vim versions don't support relative numbering. Check first.
+if exists("&relativenumber")
+    set relativenumber
+endif
+" Fallback to normal line numbering. If the version of Vim is recent enough,
+" it will display the line number on the current line and use relative
+" numbering on other lines. However, if the Vim version doesn't support
+" simultaneous use of both relativenumber and number, then it will fallback to
+" using just number.
 set number
 
 " xterm title inherited from vim
