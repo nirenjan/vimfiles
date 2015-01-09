@@ -1,0 +1,7 @@
+# Ignore any Vim swap files
+.*swp
+
+# Ignore NetRW files
+.netrwhist
+.netrwbook
+
