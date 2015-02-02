@@ -88,3 +88,6 @@ if has("mouse")
     set mousehide
 endif
 
+" Swapfile support
+set directory=$HOME/.vim/.swp//
+
