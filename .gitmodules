@@ -1,42 +1,42 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
-	url = git@github.com:tpope/vim-pathogen.git
+	url = https://github.com/tpope/vim-pathogen.git
 	ignore = dirty
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 	ignore = dirty
 [submodule "bundle/tmux.vim"]
 	path = bundle/tmux.vim
-	url = git@github.com:zaiste/tmux.vim.git
+	url = https://github.com/zaiste/tmux.vim.git
 	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
-	url = git@github.com:altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 	ignore = dirty
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
-	url = git@github.com:vimwiki/vimwiki.git
+	url = https://github.com/vimwiki/vimwiki.git
 	ignore = dirty
 [submodule "bundle/tcomment_vim"]
 	path = bundle/tcomment_vim
-	url = git@github.com:tomtom/tcomment_vim.git
+	url = https://github.com/tomtom/tcomment_vim.git
 	ignore = dirty
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = git@github.com:bling/vim-airline.git
+	url = https://github.com/bling/vim-airline.git
 	ignore = dirty
 [submodule "bundle/vim-bufferline"]
 	path = bundle/vim-bufferline
-	url = git@github.com:bling/vim-bufferline.git
+	url = https://github.com/bling/vim-bufferline.git
 	ignore = dirty
 [submodule "bundle/vim-vinegar"]
 	path = bundle/vim-vinegar
-	url = git@github.com:tpope/vim-vinegar.git
+	url = https://github.com/tpope/vim-vinegar.git
 	ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git@github.com:tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
-	url = git@github.com:tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
