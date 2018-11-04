@@ -6,10 +6,6 @@
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 	ignore = dirty
-[submodule "bundle/tmux.vim"]
-	path = bundle/tmux.vim
-	url = https://github.com/zaiste/tmux.vim.git
-	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
@@ -40,3 +36,6 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-polyglot"]
+	path = bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
